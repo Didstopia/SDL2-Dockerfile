@@ -4,7 +4,7 @@ Based on the official Ubuntu 16.04 image.
 
 Contains:
 
-* gcc-5/g++-5 toolchain
+* Version 4.8 gcc/g++ toolchain
 * Support for building both 32- and 64-bit Linux builds
 * Support for building both 32- and 64-bit MinGW builds
 * A few extra dependencies, such as Git and Python/pip
