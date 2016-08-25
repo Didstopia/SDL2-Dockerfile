@@ -10,6 +10,7 @@ RUN apt-get install -y \
     gcc-4.8-base \
     g++-4.8-multilib \
     gcc-4.8-multilib \
+    g++-multilib \
     build-essential \
     libc6-dev-i386 \
     xutils-dev \
