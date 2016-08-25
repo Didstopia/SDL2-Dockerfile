@@ -14,14 +14,14 @@ RUN apt-get install -y \
     build-essential \
     libc6-dev-i386 \
     xutils-dev \
-    libsdl2-dev libsdl2-dev:i386 \
-    libsdl2-gfx-dev libsdl2-gfx-dev:i386 \
-    libsdl2-image-dev libsdl2-image-dev:i386 \
-    libsdl2-mixer-dev libsdl2-mixer-dev:i386 \
-    libsdl2-net-dev libsdl2-net-dev:i386 \
-    libsdl2-ttf-dev libsdl2-ttf-dev:i386 \
-    libreadline6-dev libreadline6-dev:i386 \
-    libncurses5-dev libncurses5-dev:i386 \
+    libsdl2-dev \
+    libsdl2-gfx-dev \
+    libsdl2-image-dev \
+    libsdl2-mixer-dev \
+    libsdl2-net-dev \
+    libsdl2-ttf-dev \
+    libreadline6-dev \
+    libncurses5-dev \
     mingw-w64
 
 # Install other dependencies
