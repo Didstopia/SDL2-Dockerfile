@@ -7,9 +7,10 @@ MAINTAINER Pauli Jokela <pauli.jokela@didstopia.com>
 # Update and install cross-platform build dependencies
 RUN apt-get update
 RUN apt-get install -y \
-    gcc-4.8-base \
-    g++-4.8-multilib \
-    gcc-4.8-multilib \
+    gcc \
+    g++ \
+    gcc-multilib \
+    g++-multilib \
     build-essential \
     xutils-dev \
     libsdl2-dev \
