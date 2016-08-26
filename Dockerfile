@@ -21,7 +21,8 @@ RUN apt-get install -y \
     libsdl2-ttf-dev \
     libreadline6-dev \
     libncurses5-dev \
-    mingw-w64
+    mingw-w64 \
+    cmake
 
 # Install other dependencies
 RUN apt-get install -y python-pip git-core
