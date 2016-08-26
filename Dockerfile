@@ -13,12 +13,12 @@ RUN apt-get install -y \
     g++-multilib \
     build-essential \
     xutils-dev \
-    libsdl2-dev \
-    libsdl2-gfx-dev \
-    libsdl2-image-dev \
-    libsdl2-mixer-dev \
-    libsdl2-net-dev \
-    libsdl2-ttf-dev \
+    libsdl2-dev libsdl2-dev:i386 \
+    libsdl2-gfx-dev libsdl2-gfx:i386 \
+    libsdl2-image-dev libsdl2-image:i386 \
+    libsdl2-mixer-dev libsdl2-mixer:i386 \
+    libsdl2-net-dev libsdl2-net:i386 \
+    libsdl2-ttf-dev libsdl2-ttf:i386 \
     libreadline6-dev \
     libncurses5-dev \
     mingw-w64 \
